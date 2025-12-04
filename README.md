@@ -6,10 +6,10 @@ The game is written purely in single-file, iAPX-88 (Intel-8088) Assembly. It is 
 # Smolness
 Check out [Project Document](Project.pdf) for greater detail. <br>
 The game is mostly similar to thsoe old Nokia snake games, however, it's much simpler than even that. <br>
-This game only has:
-    1. One level (no concept of levels, actually)
-    2. Hard coded obstacles
-    3. Non-growable player character
+This game only has: <br>
+    1. One level (no concept of levels, actually) <br>
+    2. Hard coded obstacles <br>
+    3. Non-growable player character <br>
 But that is barely any fun :)
 
 ---

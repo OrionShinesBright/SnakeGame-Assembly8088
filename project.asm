@@ -496,7 +496,7 @@ updatePosition:
 	cmp2:
 		cmp word [cs:currDir], 1
 		jne cmp3
-		add word [cs:currCol], 4
+		add word [cs:currCol], 2
 		jmp doneUpdatePos
 	; Move down
 	cmp3:
@@ -506,7 +506,7 @@ updatePosition:
 		jmp doneUpdatePos
 	; Move left
 	cmp4:
-		sub word [cs:currCol], 4
+		sub word [cs:currCol], 2
 	
 	doneUpdatePos:
 		call checkConditions
